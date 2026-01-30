@@ -1,0 +1,22 @@
+<div *ngIf="submittedData.length >0">
+    <h3>Admin data</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>phone</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let task of submittedData; let i= index">
+                      <td>{{task.name}}</td>
+                      <td>{{task.email}}</td>
+                      <td>{{task.phone}}</td>
+                      <td>{{task.message}}</td>
+                      <td><button type="button" (click)="deleteUser(i)">delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

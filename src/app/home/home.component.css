@@ -1,0 +1,175 @@
+#back{
+    background-color: black;
+}
+#about{
+    margin-left: -42px;
+}
+.about{
+    margin-left: -9px;
+    font-size: 13px;
+    color: white;
+}
+#asad{
+    margin-top: 100px;
+}
+#button{
+    margin-top: 18px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    width:110px;
+    height: 40px;
+}
+#web{
+ border: 2px solid blue;
+ color: white;
+ padding-top: 20px;
+ margin-left: 60px;
+ border-radius: 16px;
+}
+#ecom{
+    color: white;
+    border: 2px solid blue;
+    padding-top: 20px;
+    margin-left: 60px;
+    border-radius: 16px;
+}
+#api{
+    color: white;
+    border: 2px solid blue;
+    padding-top: 20px;
+    margin-left: 20px;
+    border-radius: 16px;
+    
+}
+#data{
+    color: white;
+    border: 2px solid blue;
+    margin-left: 170px;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+#clean{
+    color: white;
+    border: 2px solid blue;
+    margin-left: 30px;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+#img{
+    border: 1px solid rgb(232, 232, 236);
+    background-color: rgb(122, 120, 120);
+    border-radius: 9px;
+        height: 140px;
+
+}
+#logo{
+    margin-top: 80px;
+}
+#name{
+    margin-top: 50px;
+    margin-left: 15px;
+    color: aliceblue;
+   
+}
+.name{
+width: 400px;
+height: 36px;
+background-color: rgb(122, 120, 120);
+border-radius: 7px;
+cursor: pointer;
+
+}
+#email{
+    margin-top: 40px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+.email{
+    width: 400px;
+    height: 36px;
+    background-color: rgb(122, 120, 120);
+    border-radius: 7px;
+    cursor: pointer;
+}
+#phone{
+    margin-top: 40px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+.phone{
+    width: 400px;
+    height: 36px;
+    background-color: rgb(122, 120, 120);
+    border-radius: 7px;
+    cursor: pointer;
+}
+#message{
+    margin-top: 40px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+.message{
+    width: 400px;
+    height: 80px;
+    background-color: rgb(122, 120, 120);
+    border-radius: 8px;
+    /* outline: none;
+    border: 2px solid blue;
+    box-shadow: 2px blue; */
+    cursor: pointer;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.button{
+    margin-left: 150px;
+    margin-top: 40px;
+    background-color: blue;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Chrome, Safari, Opera */
+input::-webkit-input-placeholder {
+  color: rgb(15, 15, 15);
+}
+
+/* Firefox 19+ */
+input::-moz-placeholder {
+  color: rgb(245, 245, 248);
+  opacity: 1;
+}
+
+/* Firefox 4 – 18 */
+input:-moz-placeholder {
+  color: rgb(242, 242, 248);
+  opacity: 1;
+}
+
+/* Internet Explorer 10+ */
+input:-ms-input-placeholder {
+  color: rgb(245, 245, 248);
+}
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;   /* apna background */
+  z-index: 1000;
+}
+
+/* Navbar ke neeche content chipak na jaye */
+#back {
+  padding-top: 90px;  /* navbar height ke barabar */
+}
+.talk{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
