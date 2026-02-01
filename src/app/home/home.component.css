@@ -1,10 +1,10 @@
 #back{
     background-color: black;
 }
-#about{
+#ab{
     margin-left: -42px;
 }
-.about{
+.ab{
     margin-left: -9px;
     font-size: 13px;
     color: white;
@@ -172,4 +172,106 @@ input:-ms-input-placeholder {
     color: white;
     text-align: center;
     margin-top: 30px;
+}
+/* === Mobile Responsive Styles === */
+@media (max-width: 768px) {
+    /* Reduce fixed widths */
+    .name, .email, .phone, .message {
+        width: 90% !important; /* screen ke hisaab se adjust */
+        margin-left: 5% !important; /* center align */
+    }
+
+    /* Buttons full width */
+    #button, .button {
+        width: 90% !important;
+        margin-left: 5% !important;
+        height: 45px;
+    }
+
+    /* Skills / boxes adjustments */
+    #web, #ecom, #api, #data, #clean {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 90% !important;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* Logo & headings */
+    #logo {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #name, #email, #phone, #message {
+        margin-left: 5%;
+    }
+
+    /* About section */
+    #about, .about {
+        margin-left: 5% !important;
+        font-size: 14px;
+    }
+
+    /* Back section padding */
+    #back {
+        padding-top: 120px; /* Navbar height ke hisaab se */
+    }
+
+    /* Images responsive */
+    #img {
+        width: 90% !important;
+        height: auto !important;
+        margin-left: 5%;
+    }
+
+    /* Center all talk text */
+    .talk {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
+/* =============================== */
+/* BOOTSTRAP 5 MOBILE FORCE FIX   */
+/* =============================== */
+
+@media (max-width: 768px) {
+
+  /* 1️⃣ kill ALL inline margins */
+  [style*="margin-left"] {
+    margin-left: 0 !important;
+  }
+
+  /* 2️⃣ bootstrap columns full width */
+  .row > [class*="col-"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  /* 3️⃣ images never overflow */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 4️⃣ services boxes */
+  #web, #ecom, #api, #data, #clean {
+    width: 95% !important;
+    margin: 12px auto !important;
+  }
+
+  /* 5️⃣ navbar items */
+  .ab, .ab-nav {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  /* 6️⃣ buttons */
+  button {
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
 }
